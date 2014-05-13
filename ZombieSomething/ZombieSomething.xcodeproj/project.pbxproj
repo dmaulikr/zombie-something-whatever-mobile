@@ -123,6 +123,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49761CB91921BAE800F77064 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				49761CA31921B6FA00F77064 /* fight.png */,
+				49761CA41921B6FA00F77064 /* flight.png */,
+				49761CA51921B6FA00F77064 /* intelligence.png */,
+				49761CA61921B6FA00F77064 /* level.png */,
+				49761CA71921B6FA00F77064 /* profile.png */,
+				49761CA81921B6FA00F77064 /* splatter-1.png */,
+				49761CA91921B6FA00F77064 /* splatter-2.png */,
+				49761CAA1921B6FA00F77064 /* splatter-3.png */,
+				49761CAB1921B6FA00F77064 /* strength.png */,
+				49761CAC1921B6FA00F77064 /* target.png */,
+				49761CAD1921B6FA00F77064 /* title.png */,
+				49761CA11921B6E700F77064 /* dexterity.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		8924A3091921A0400082A039 = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +181,7 @@
 		8924A31B1921A0410082A039 /* ZombieSomething */ = {
 			isa = PBXGroup;
 			children = (
+				49761CB91921BAE800F77064 /* images */,
 				8924A3241921A0410082A039 /* AppDelegate.h */,
 				8924A3251921A0410082A039 /* AppDelegate.m */,
 				8924A3271921A0410082A039 /* Main_iPhone.storyboard */,
@@ -169,18 +189,6 @@
 				8924A32D1921A0410082A039 /* ViewController.h */,
 				8924A32E1921A0410082A039 /* ViewController.m */,
 				8924A3301921A0410082A039 /* Images.xcassets */,
-				49761CA31921B6FA00F77064 /* fight.png */,
-				49761CA41921B6FA00F77064 /* flight.png */,
-				49761CA51921B6FA00F77064 /* intelligence.png */,
-				49761CA61921B6FA00F77064 /* level.png */,
-				49761CA71921B6FA00F77064 /* profile.png */,
-				49761CA81921B6FA00F77064 /* splatter-1.png */,
-				49761CA91921B6FA00F77064 /* splatter-2.png */,
-				49761CAA1921B6FA00F77064 /* splatter-3.png */,
-				49761CAB1921B6FA00F77064 /* strength.png */,
-				49761CAC1921B6FA00F77064 /* target.png */,
-				49761CAD1921B6FA00F77064 /* title.png */,
-				49761CA11921B6E700F77064 /* dexterity.png */,
 				8924A31C1921A0410082A039 /* Supporting Files */,
 			);
 			path = ZombieSomething;
