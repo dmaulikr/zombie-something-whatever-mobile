@@ -117,18 +117,26 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Zombie Status" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcz-Jf-aA3">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Zombie status: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcz-Jf-aA3">
                                 <rect key="frame" x="20" y="281" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="intelligence.png" translatesAutoresizingMaskIntoConstraints="NO" id="fzq-NS-tsb">
-                                <rect key="frame" x="-60" y="371" width="345" height="110"/>
+                                <rect key="frame" x="-60" y="436" width="311" height="87"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="level.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tal-it-8od">
-                                <rect key="frame" x="0.0" y="371" width="265" height="33"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="level.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tal-it-8od">
+                                <rect key="frame" x="-105" y="288" width="405" height="102"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="dexterity.png" translatesAutoresizingMaskIntoConstraints="NO" id="z1E-DB-a1F">
+                                <rect key="frame" x="-67" y="404" width="313" height="90"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="strength.png" translatesAutoresizingMaskIntoConstraints="NO" id="8af-r0-yhu">
+                                <rect key="frame" x="-83" y="375" width="345" height="74"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                         </subviews>
@@ -200,8 +208,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="dexterity.png" width="640" height="320"/>
         <image name="intelligence.png" width="640" height="320"/>
         <image name="level.png" width="640" height="320"/>
+        <image name="strength.png" width="640" height="320"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
