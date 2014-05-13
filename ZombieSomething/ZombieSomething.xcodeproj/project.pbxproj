@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49761CA21921B6E700F77064 /* dexterity.png in Resources */ = {isa = PBXBuildFile; fileRef = 49761CA11921B6E700F77064 /* dexterity.png */; };
+		49761CAE1921B6FA00F77064 /* fight.png in Resources */ = {isa = PBXBuildFile; fileRef = 49761CA31921B6FA00F77064 /* fight.png */; };
+		49761CAF1921B6FA00F77064 /* flight.png in Resources */ = {isa = PBXBuildFile; fileRef = 49761CA41921B6FA00F77064 /* flight.png */; };
+		49761CB01921B6FA00F77064 /* intelligence.png in Resources */ = {isa = PBXBuildFile; fileRef = 49761CA51921B6FA00F77064 /* intelligence.png */; };
+		49761CB11921B6FA00F77064 /* level.png in Resources */ = {isa = PBXBuildFile; fileRef = 49761CA61921B6FA00F77064 /* level.png */; };
+		49761CB21921B6FA00F77064 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 49761CA71921B6FA00F77064 /* profile.png */; };
+		49761CB31921B6FA00F77064 /* splatter-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 49761CA81921B6FA00F77064 /* splatter-1.png */; };
+		49761CB41921B6FA00F77064 /* splatter-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 49761CA91921B6FA00F77064 /* splatter-2.png */; };
+		49761CB51921B6FA00F77064 /* splatter-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 49761CAA1921B6FA00F77064 /* splatter-3.png */; };
+		49761CB61921B6FA00F77064 /* strength.png in Resources */ = {isa = PBXBuildFile; fileRef = 49761CAB1921B6FA00F77064 /* strength.png */; };
+		49761CB71921B6FA00F77064 /* target.png in Resources */ = {isa = PBXBuildFile; fileRef = 49761CAC1921B6FA00F77064 /* target.png */; };
+		49761CB81921B6FA00F77064 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 49761CAD1921B6FA00F77064 /* title.png */; };
 		8924A3161921A0410082A039 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8924A3151921A0410082A039 /* Foundation.framework */; };
 		8924A3181921A0410082A039 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8924A3171921A0410082A039 /* CoreGraphics.framework */; };
 		8924A31A1921A0410082A039 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8924A3191921A0410082A039 /* UIKit.framework */; };
@@ -41,6 +53,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49761CA11921B6E700F77064 /* dexterity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dexterity.png; path = Images.xcassets/dexterity.png; sourceTree = "<group>"; };
+		49761CA31921B6FA00F77064 /* fight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fight.png; path = Images.xcassets/fight.png; sourceTree = "<group>"; };
+		49761CA41921B6FA00F77064 /* flight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flight.png; path = Images.xcassets/flight.png; sourceTree = "<group>"; };
+		49761CA51921B6FA00F77064 /* intelligence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = intelligence.png; path = Images.xcassets/intelligence.png; sourceTree = "<group>"; };
+		49761CA61921B6FA00F77064 /* level.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = level.png; path = Images.xcassets/level.png; sourceTree = "<group>"; };
+		49761CA71921B6FA00F77064 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile.png; path = Images.xcassets/profile.png; sourceTree = "<group>"; };
+		49761CA81921B6FA00F77064 /* splatter-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "splatter-1.png"; path = "Images.xcassets/splatter-1.png"; sourceTree = "<group>"; };
+		49761CA91921B6FA00F77064 /* splatter-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "splatter-2.png"; path = "Images.xcassets/splatter-2.png"; sourceTree = "<group>"; };
+		49761CAA1921B6FA00F77064 /* splatter-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "splatter-3.png"; path = "Images.xcassets/splatter-3.png"; sourceTree = "<group>"; };
+		49761CAB1921B6FA00F77064 /* strength.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = strength.png; path = Images.xcassets/strength.png; sourceTree = "<group>"; };
+		49761CAC1921B6FA00F77064 /* target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = target.png; path = Images.xcassets/target.png; sourceTree = "<group>"; };
+		49761CAD1921B6FA00F77064 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = title.png; path = Images.xcassets/title.png; sourceTree = "<group>"; };
 		8924A3121921A0410082A039 /* ZombieSomething.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZombieSomething.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8924A3151921A0410082A039 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8924A3171921A0410082A039 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -145,6 +169,18 @@
 				8924A32D1921A0410082A039 /* ViewController.h */,
 				8924A32E1921A0410082A039 /* ViewController.m */,
 				8924A3301921A0410082A039 /* Images.xcassets */,
+				49761CA31921B6FA00F77064 /* fight.png */,
+				49761CA41921B6FA00F77064 /* flight.png */,
+				49761CA51921B6FA00F77064 /* intelligence.png */,
+				49761CA61921B6FA00F77064 /* level.png */,
+				49761CA71921B6FA00F77064 /* profile.png */,
+				49761CA81921B6FA00F77064 /* splatter-1.png */,
+				49761CA91921B6FA00F77064 /* splatter-2.png */,
+				49761CAA1921B6FA00F77064 /* splatter-3.png */,
+				49761CAB1921B6FA00F77064 /* strength.png */,
+				49761CAC1921B6FA00F77064 /* target.png */,
+				49761CAD1921B6FA00F77064 /* title.png */,
+				49761CA11921B6E700F77064 /* dexterity.png */,
 				8924A31C1921A0410082A039 /* Supporting Files */,
 			);
 			path = ZombieSomething;
@@ -255,10 +291,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49761CAE1921B6FA00F77064 /* fight.png in Resources */,
 				8924A32C1921A0410082A039 /* Main_iPad.storyboard in Resources */,
+				49761CB11921B6FA00F77064 /* level.png in Resources */,
+				49761CB41921B6FA00F77064 /* splatter-2.png in Resources */,
+				49761CB21921B6FA00F77064 /* profile.png in Resources */,
+				49761CA21921B6E700F77064 /* dexterity.png in Resources */,
 				8924A3311921A0410082A039 /* Images.xcassets in Resources */,
 				8924A3291921A0410082A039 /* Main_iPhone.storyboard in Resources */,
+				49761CB61921B6FA00F77064 /* strength.png in Resources */,
+				49761CB31921B6FA00F77064 /* splatter-1.png in Resources */,
+				49761CB51921B6FA00F77064 /* splatter-3.png in Resources */,
+				49761CAF1921B6FA00F77064 /* flight.png in Resources */,
+				49761CB01921B6FA00F77064 /* intelligence.png in Resources */,
 				8924A3201921A0410082A039 /* InfoPlist.strings in Resources */,
+				49761CB81921B6FA00F77064 /* title.png in Resources */,
+				49761CB71921B6FA00F77064 /* target.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
