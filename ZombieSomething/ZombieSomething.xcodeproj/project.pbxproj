@@ -22,6 +22,12 @@
 		8924A33A1921A0410082A039 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8924A3191921A0410082A039 /* UIKit.framework */; };
 		8924A3421921A0410082A039 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8924A3401921A0410082A039 /* InfoPlist.strings */; };
 		8924A3441921A0410082A039 /* ZombieSomethingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8924A3431921A0410082A039 /* ZombieSomethingTests.m */; };
+		898C0F571921B1E600A14B7A /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898C0F561921B1E600A14B7A /* Firebase.framework */; };
+		898C0F591921B27C00A14B7A /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 898C0F581921B27C00A14B7A /* libicucore.dylib */; };
+		898C0F5B1921B28700A14B7A /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 898C0F5A1921B28700A14B7A /* libc++.dylib */; };
+		898C0F5D1921B28E00A14B7A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898C0F5C1921B28E00A14B7A /* CFNetwork.framework */; };
+		898C0F5F1921B29400A14B7A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898C0F5E1921B29400A14B7A /* Security.framework */; };
+		898C0F611921B29A00A14B7A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898C0F601921B29A00A14B7A /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +61,12 @@
 		8924A33F1921A0410082A039 /* ZombieSomethingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZombieSomethingTests-Info.plist"; sourceTree = "<group>"; };
 		8924A3411921A0410082A039 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8924A3431921A0410082A039 /* ZombieSomethingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZombieSomethingTests.m; sourceTree = "<group>"; };
+		898C0F561921B1E600A14B7A /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = ZombieSomething/Firebase.framework; sourceTree = "<group>"; };
+		898C0F581921B27C00A14B7A /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		898C0F5A1921B28700A14B7A /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		898C0F5C1921B28E00A14B7A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		898C0F5E1921B29400A14B7A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		898C0F601921B29A00A14B7A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				898C0F611921B29A00A14B7A /* SystemConfiguration.framework in Frameworks */,
+				898C0F5F1921B29400A14B7A /* Security.framework in Frameworks */,
+				898C0F5D1921B28E00A14B7A /* CFNetwork.framework in Frameworks */,
+				898C0F5B1921B28700A14B7A /* libc++.dylib in Frameworks */,
+				898C0F591921B27C00A14B7A /* libicucore.dylib in Frameworks */,
+				898C0F571921B1E600A14B7A /* Firebase.framework in Frameworks */,
 				8924A3181921A0410082A039 /* CoreGraphics.framework in Frameworks */,
 				8924A31A1921A0410082A039 /* UIKit.framework in Frameworks */,
 				8924A3161921A0410082A039 /* Foundation.framework in Frameworks */,
@@ -103,6 +121,12 @@
 		8924A3141921A0410082A039 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				898C0F601921B29A00A14B7A /* SystemConfiguration.framework */,
+				898C0F5E1921B29400A14B7A /* Security.framework */,
+				898C0F5C1921B28E00A14B7A /* CFNetwork.framework */,
+				898C0F5A1921B28700A14B7A /* libc++.dylib */,
+				898C0F581921B27C00A14B7A /* libicucore.dylib */,
+				898C0F561921B1E600A14B7A /* Firebase.framework */,
 				8924A3151921A0410082A039 /* Foundation.framework */,
 				8924A3171921A0410082A039 /* CoreGraphics.framework */,
 				8924A3191921A0410082A039 /* UIKit.framework */,
@@ -390,9 +414,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZombieSomething",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZombieSomething/ZombieSomething-Prefix.pch";
 				INFOPLIST_FILE = "ZombieSomething/ZombieSomething-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -403,9 +432,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZombieSomething",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZombieSomething/ZombieSomething-Prefix.pch";
 				INFOPLIST_FILE = "ZombieSomething/ZombieSomething-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
