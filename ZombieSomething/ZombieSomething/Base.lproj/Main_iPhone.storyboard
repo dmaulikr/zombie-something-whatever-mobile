@@ -21,6 +21,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="39"/>
                                 <state key="normal" title="CLICK &amp; LOGIN">
+                                    <color key="titleColor" red="0.84674337635869568" green="0.047440919027256348" blue="0.13136913447769075" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -28,7 +29,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="wxf-HH-MrR"/>
                 </viewController>
@@ -122,6 +123,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="intelligence.png" translatesAutoresizingMaskIntoConstraints="NO" id="fzq-NS-tsb">
+                                <rect key="frame" x="-60" y="371" width="345" height="110"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="level.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tal-it-8od">
+                                <rect key="frame" x="0.0" y="371" width="265" height="33"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -190,6 +199,10 @@
             <point key="canvasLocation" x="-221" y="107"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="intelligence.png" width="640" height="320"/>
+        <image name="level.png" width="640" height="320"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
