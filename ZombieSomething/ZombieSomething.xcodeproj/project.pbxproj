@@ -470,6 +470,7 @@
 				8924A3491921A0410082A039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8924A34A1921A0410082A039 /* Build configuration list for PBXNativeTarget "ZombieSomethingTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +479,7 @@
 				8924A34C1921A0410082A039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
