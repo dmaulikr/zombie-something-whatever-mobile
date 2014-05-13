@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <Firebase/Firebase.h>
 
 @interface ViewController ()
 
@@ -18,6 +19,19 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    // Create a reference to a Firebase locationzombiefire.firebaseio.com
+    Firebase* f = [[Firebase alloc] initWithUrl:@"https://zombiefire.firebaseio.com/"];
+    
+    // Write data to Firebase
+    [f setValue:@"Do you have data? You'll love Firebase."];
+    
+    // Read data and react to changes
+    [f observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
+        NSLog(@"%@ -> %@", snapshot.name, snapshot.value);
+    }];
+
+    
 }
 
 - (void)didReceiveMemoryWarning
