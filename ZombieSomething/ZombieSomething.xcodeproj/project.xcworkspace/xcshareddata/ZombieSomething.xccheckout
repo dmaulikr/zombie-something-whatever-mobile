@@ -5,11 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>34D883E3-B86C-49A4-88CE-DD7767527D79</string>
+	<string>06F8A5D1-8085-42B2-B293-AFB94327965F</string>
 	<key>IDESourceControlProjectName</key>
 	<string>ZombieSomething</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>2666C272-19D0-4ADF-A557-24BE27A13345</key>
+		<string>https://github.com/ratherironic/zombie-something-whatever.git</string>
 		<key>2C91B2A3-62C9-4CFB-9B5C-DE7D0D0EF14C</key>
 		<string>https://github.com/ratherironic/zombie-something-whatever-mobile</string>
 	</dict>
@@ -17,11 +19,13 @@
 	<string>ZombieSomething/ZombieSomething.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>2666C272-19D0-4ADF-A557-24BE27A13345</key>
+		<string>../..</string>
 		<key>2C91B2A3-62C9-4CFB-9B5C-DE7D0D0EF14C</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/ratherironic/zombie-something-whatever-mobile</string>
+	<string>https://github.com/ratherironic/zombie-something-whatever.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
@@ -35,6 +39,14 @@
 			<string>2C91B2A3-62C9-4CFB-9B5C-DE7D0D0EF14C</string>
 			<key>IDESourceControlWCCName</key>
 			<string>zombie-something-whatever-mobile</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2666C272-19D0-4ADF-A557-24BE27A13345</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZombieSomething</string>
 		</dict>
 	</array>
 </dict>
